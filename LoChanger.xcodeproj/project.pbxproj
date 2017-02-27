@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9862BD471E648C2500B630CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9862BD461E648C2500B630CA /* AppDelegate.swift */; };
+		9862BD491E648C2500B630CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9862BD481E648C2500B630CA /* ViewController.swift */; };
+		9862BD4C1E648C2500B630CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9862BD4A1E648C2500B630CA /* Main.storyboard */; };
+		9862BD4E1E648C2500B630CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9862BD4D1E648C2500B630CA /* Assets.xcassets */; };
+		9862BD511E648C2500B630CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9862BD4F1E648C2500B630CA /* LaunchScreen.storyboard */; };
+		9862BD591E648DC900B630CA /* LocationServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9862BD581E648DC900B630CA /* LocationServices.swift */; };
+		FC733C746B30FC5DB7E32735 /* Pods_LoChanger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AF911101D0A205D173D62A1 /* Pods_LoChanger.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B20A3BB93B838870474565A /* Pods-LoChanger.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoChanger.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoChanger/Pods-LoChanger.release.xcconfig"; sourceTree = "<group>"; };
+		6AF911101D0A205D173D62A1 /* Pods_LoChanger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoChanger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9370999CB39425BAC6EFE8B0 /* Pods-LoChanger.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoChanger.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoChanger/Pods-LoChanger.debug.xcconfig"; sourceTree = "<group>"; };
+		9862BD431E648C2500B630CA /* LoChanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoChanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9862BD461E648C2500B630CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9862BD481E648C2500B630CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9862BD4B1E648C2500B630CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9862BD4D1E648C2500B630CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9862BD501E648C2500B630CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9862BD521E648C2500B630CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9862BD581E648DC900B630CA /* LocationServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationServices.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9862BD401E648C2500B630CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC733C746B30FC5DB7E32735 /* Pods_LoChanger.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3EF2E9F19E293402D5A89E0C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AF911101D0A205D173D62A1 /* Pods_LoChanger.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7ACD07775753EE95F6773041 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9370999CB39425BAC6EFE8B0 /* Pods-LoChanger.debug.xcconfig */,
+				0B20A3BB93B838870474565A /* Pods-LoChanger.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9862BD3A1E648C2500B630CA = {
+			isa = PBXGroup;
+			children = (
+				9862BD451E648C2500B630CA /* LoChanger */,
+				9862BD441E648C2500B630CA /* Products */,
+				7ACD07775753EE95F6773041 /* Pods */,
+				3EF2E9F19E293402D5A89E0C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9862BD441E648C2500B630CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9862BD431E648C2500B630CA /* LoChanger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9862BD451E648C2500B630CA /* LoChanger */ = {
+			isa = PBXGroup;
+			children = (
+				9862BD461E648C2500B630CA /* AppDelegate.swift */,
+				9862BD481E648C2500B630CA /* ViewController.swift */,
+				9862BD4A1E648C2500B630CA /* Main.storyboard */,
+				9862BD581E648DC900B630CA /* LocationServices.swift */,
+				9862BD5A1E64982D00B630CA /* Resources */,
+			);
+			path = LoChanger;
+			sourceTree = "<group>";
+		};
+		9862BD5A1E64982D00B630CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9862BD4D1E648C2500B630CA /* Assets.xcassets */,
+				9862BD4F1E648C2500B630CA /* LaunchScreen.storyboard */,
+				9862BD521E648C2500B630CA /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9862BD421E648C2500B630CA /* LoChanger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9862BD551E648C2500B630CA /* Build configuration list for PBXNativeTarget "LoChanger" */;
+			buildPhases = (
+				9FC4C8AD216D081885F64185 /* [CP] Check Pods Manifest.lock */,
+				9862BD3F1E648C2500B630CA /* Sources */,
+				9862BD401E648C2500B630CA /* Frameworks */,
+				9862BD411E648C2500B630CA /* Resources */,
+				E22AD9B5029AEDBABE9F4ABF /* [CP] Embed Pods Frameworks */,
+				961AE8FA6C97D0E8E12DF53E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoChanger;
+			productName = LoChanger;
+			productReference = 9862BD431E648C2500B630CA /* LoChanger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9862BD3B1E648C2500B630CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Nolan Lapham";
+				TargetAttributes = {
+					9862BD421E648C2500B630CA = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5R827PGNH3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9862BD3E1E648C2500B630CA /* Build configuration list for PBXProject "LoChanger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9862BD3A1E648C2500B630CA;
+			productRefGroup = 9862BD441E648C2500B630CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9862BD421E648C2500B630CA /* LoChanger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9862BD411E648C2500B630CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9862BD511E648C2500B630CA /* LaunchScreen.storyboard in Resources */,
+				9862BD4E1E648C2500B630CA /* Assets.xcassets in Resources */,
+				9862BD4C1E648C2500B630CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		961AE8FA6C97D0E8E12DF53E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoChanger/Pods-LoChanger-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FC4C8AD216D081885F64185 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E22AD9B5029AEDBABE9F4ABF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LoChanger/Pods-LoChanger-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9862BD3F1E648C2500B630CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9862BD491E648C2500B630CA /* ViewController.swift in Sources */,
+				9862BD591E648DC900B630CA /* LocationServices.swift in Sources */,
+				9862BD471E648C2500B630CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9862BD4A1E648C2500B630CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9862BD4B1E648C2500B630CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9862BD4F1E648C2500B630CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9862BD501E648C2500B630CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9862BD531E648C2500B630CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9862BD541E648C2500B630CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9862BD561E648C2500B630CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9370999CB39425BAC6EFE8B0 /* Pods-LoChanger.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5R827PGNH3;
+				INFOPLIST_FILE = LoChanger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dkhelperapp.LoChanger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9862BD571E648C2500B630CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B20A3BB93B838870474565A /* Pods-LoChanger.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5R827PGNH3;
+				INFOPLIST_FILE = LoChanger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dkhelperapp.LoChanger;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9862BD3E1E648C2500B630CA /* Build configuration list for PBXProject "LoChanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9862BD531E648C2500B630CA /* Debug */,
+				9862BD541E648C2500B630CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9862BD551E648C2500B630CA /* Build configuration list for PBXNativeTarget "LoChanger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9862BD561E648C2500B630CA /* Debug */,
+				9862BD571E648C2500B630CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9862BD3B1E648C2500B630CA /* Project object */;
+}
